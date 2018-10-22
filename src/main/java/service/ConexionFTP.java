@@ -16,12 +16,8 @@ import org.apache.commons.net.ftp.*; //Class that encapsulates all the functiona
 public class ConexionFTP {
     // Variables de clase.
     private static String dirActual;
-    private static FTPClient cliente = new FTPClient();
+    private static FTPClient cliente = new FTPClient(); //Instancia cliente de tipo FTPClient
 
-
-    public static void main(String[] args) {
-        FTPClient cliente = new FTPClient(); //Instancia cliente de tipo FTPClient
-    }
 
     // Métodos:
     /**
